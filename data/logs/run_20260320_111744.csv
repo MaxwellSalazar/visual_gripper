@@ -1,0 +1,1 @@
+timestamp_s,elapsed_s,frame_id,px,py,deflection_px,force_N,pwm,pid_error,pid_p,pid_i,pid_d,regime,ctrl_state,marker_found,latency_ms

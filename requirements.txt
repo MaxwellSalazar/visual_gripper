@@ -1,0 +1,21 @@
+# Visual Gripper — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core vision
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0   # required for cv2.aruco module
+
+# Numerics
+numpy>=1.24.0
+
+# Serial communication (Arduino bridge)
+pyserial>=3.5
+
+# Data analysis & plotting (for tests/analyze_results.py)
+pandas>=2.0.0
+matplotlib>=3.7.0
+scipy>=1.11.0                  # optional: for curve fitting in calibration
+
+# Optional: Raspberry Pi GPIO (install only on RPi)
+# RPi.GPIO>=0.7.1
+# pigpio>=1.78
